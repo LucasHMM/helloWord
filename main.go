@@ -1,4 +1,9 @@
 // Sample run-helloworld is a minimal Cloud Run service.
+// It listens on the port defined by the PORT environment variable
+// and responds with a greeting message.
+// To deploy this service, use the following command:
+//
+//	gcloud run deploy run-helloworld --source . --region us-central1
 package main
 
 import (
